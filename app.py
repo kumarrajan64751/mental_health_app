@@ -85,9 +85,9 @@ if not name:
     st.stop()
 
 # --- Model Load ---
-dep_model = pickle.load(open("model/depression_model.pkl", "rb"))
-anx_model = pickle.load(open("model/anxiety_model.pkl", "rb"))
-stress_model = pickle.load(open("model/stress_model.pkl", "rb"))
+dep_model = pickle.load(open("depression_model.pkl", "rb"))
+anx_model = pickle.load(open("anxiety_model.pkl", "rb"))
+stress_model = pickle.load(open("stress_model.pkl", "rb"))
 
 # --- Question Texts ---
 phq_questions = [
