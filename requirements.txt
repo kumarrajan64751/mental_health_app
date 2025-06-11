@@ -49,3 +49,6 @@ tzdata==2025.2
 urllib3==2.4.0
 watchdog==6.0.0
 fpdf
+google-auth
+gspread
+oauth2client
