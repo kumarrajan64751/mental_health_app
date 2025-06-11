@@ -71,7 +71,7 @@ def load_lottie_animation(path: str):
     with open(path, "r") as f:
         return json.load(f)
 
-lottie_animation = load_lottie_animation("lottie_animation.json")
+lottie_animation = load_lottie_animation("app/lottie_animation.json")
 
 # --- Title and Animation ---
 st_lottie(lottie_animation, height=200)
