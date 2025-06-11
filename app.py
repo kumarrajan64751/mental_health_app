@@ -172,7 +172,7 @@ if st.button("🧪 Predict My Mental Health"):
 
     # Generate and offer PDF download
     report_name = f"{name.replace(' ', '_')}_mental_health_report.pdf"
-    output_path = os.path.join("app", report_name)
+    output_path = os.path.join( report_name)
     phq_qas = [(phq_questions[i], list(phq_gad_options.keys())[list(phq_gad_options.values()).index(score)]) for i, score in enumerate(phq_scores)]
     gad_qas = [(gad_questions[i], list(phq_gad_options.keys())[list(phq_gad_options.values()).index(score)]) for i, score in enumerate(gad_scores)]
     epw_qas = [(epw_questions[i], list(epw_options.keys())[list(epw_options.values()).index(score)]) for i, score in enumerate(epw_scores)]
