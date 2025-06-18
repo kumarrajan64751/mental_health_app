@@ -203,7 +203,7 @@ if st.button("🧪 Predict My Mental Health"):
     st.markdown(
         """
         🔗 [**Try Guided Mindfulness Exercises**](https://kumarrajan64751.github.io/Mindfulness-and-mental-Wellness/)  
-        🩺 [**Connect With a Mental Health Professional**](https://www.psychologytoday.com/us/therapists)
+        🩺 [**Connect With a Mental Health Professional**](https://connect-to-consultants.onrender.com/)
         """,
         unsafe_allow_html=True
     )
